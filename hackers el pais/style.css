@@ -1,0 +1,154 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header img {
+    width: 100vw;
+}
+
+main {
+    width: 50vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+    font-size: 30px; 
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 25px;
+    margin: 40px;
+    text-align: center; 
+    font-weight: 100;
+    color:grey;
+}
+
+section a{
+    font-weight: 600;
+    margin-bottom: 30px;
+    color:grey;
+    text-decoration: none;
+}
+
+section a:hover {
+    color:grey;
+    text-decoration: underline;
+}
+
+section a:active{
+    color: black;
+    text-decoration: underline;
+}
+
+section p{
+    text-align: center;
+    margin-top: 25px;
+    line-height: 3em;
+}
+
+.letrachiquita{
+    font-size: 15px;
+}
+
+.subrayado{
+    text-decoration: underline;
+}
+
+article {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50vw;
+}
+
+article p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    width: 40vw;
+    font-weight: 100;
+    color: gray;
+}
+
+article img {
+    width: inherit;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+h3 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vw;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+article a {
+    color: black;
+    font-weight:bold;
+    text-decoration: none;
+}
+
+article a:hover{
+    color:darkblue;
+}
+
+.banner_thinkbig {
+    width: 40vw;
+    margin: auto;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+article hr{
+    border: 1px 
+    solid lightsteelblue;
+}
+
+.piedearticulo{
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    height: min-content;
+    background: white;
+    font-size: 12px;
+}
+
+.centro{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.the-trust-project{
+    margin: 10px;
+    vertical-align: middle;
+    display: inline;
+}
+
+footer{
+    width: 40vw;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+ul {
+    margin-top: 0.5em;
+    color:grey;
+    line-height: 1.8em;
+    padding: 0;
+    list-style: disc;
+}
+
+li {
+    display: inline;
+}
