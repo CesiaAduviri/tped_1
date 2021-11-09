@@ -39,7 +39,7 @@ img{
 .container{
     display: flex;
     padding: 10px;
-    flex-wrap:r;
+    flex-wrap:wrap-reverse;
     justify-content: space-around;
 }
 

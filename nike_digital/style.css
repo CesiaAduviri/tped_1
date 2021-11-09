@@ -83,3 +83,36 @@ ol {
 ol li {
     margin-bottom: 10px;
 }
+
+#menu {
+    position: fixed;
+    top:0;
+    left:0;
+    Height: min-content;
+    Width: 100%;
+    background-color: rgb(235, 230, 230);
+}
+
+#lista2{
+    font-family:Arial;
+    font-weight:bold;
+    font-size:15px;
+}
+
+.separador {
+    color:gray;
+}
+#lista2 li {
+     display:inline;
+     padding-left:7px;
+     padding-right:7px;
+    background-color:none;
+}
+
+#lista2 :hover {
+    color:rosybrownç;
+    background-color:transparent;
+    position: relative;
+    left: 8px;
+    border: 3px;
+}
