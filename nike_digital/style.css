@@ -11,7 +11,7 @@ header {
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
-}
+    }
 
 header p {
     margin: 0;
@@ -116,3 +116,18 @@ ol li {
     left: 8px;
     border: 3px;
 }
+
+header img {
+    height: 100%;
+    position: absolute;
+}
+header h3 {
+    position: absolute;
+    background-color: gray;
+    bottom: 0;
+    font-size: 0;
+}
+header:hover h3 {
+    color: beige;
+    font-size: 72px;
+    transition: .5s ease;
