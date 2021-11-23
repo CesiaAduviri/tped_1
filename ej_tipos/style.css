@@ -1,0 +1,49 @@
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(221, 237, 241);
+    background-size: cover;
+}
+
+.contenedor section{
+    background-color: whitesmoke;
+    width: 30%;
+    margin: 10px;
+}
+
+#primero{
+    font-family: 'Alfa Slab One', cursive;
+}
+
+#segundo{
+     font-family: 'Cormorant Garamond', serif;
+}
+
+#tercero{
+    font-family: 'Fredoka One', cursive;
+}
+
+#cuarto{
+    font-family: 'Lobster', cursive;
+}
+
+#quinto{
+    font-family: 'Road Rage', cursive;
+}
+
+#sexto{
+    font-family: 'Roboto Mono', monospace;
+}
+
+#septimo{
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#octavo{
+    font-family: 'Staatliches', cursive;
+}
+
+#noveno{
+    font-family: 'Teko', sans-serif;
+}
