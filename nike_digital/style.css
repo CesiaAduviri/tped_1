@@ -132,3 +132,16 @@ header:hover h3 {
     color: beige;
     font-size: 72px;
     transition: .5s ease;
+
+    @media screen and (max-width: 320px)
+        h1{
+        font-size: 3em;
+        }
+
+        h2{
+        font-size: 1.3em;
+        }
+        
+        .menu{
+        display: none;
+        }
