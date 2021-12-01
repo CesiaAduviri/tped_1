@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Boostrap ej1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap-grid.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <style type="text/css">
+    div {
+        box-sizing: border-box; /* para que los bordes, paddings estén en la anchura (determinada por col) */
+    }
+    nav {
+        background-color: aqua;
+    }
+    #galeria {
+        background-color: bisque;
+        display: flex; /* al ser col Boostrap ya le pone Flex */
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 80vh; /* 80% altura pantalla */
+        overflow: auto;
+    }        
+    #galeria div {
+        background-color: darkgray;
+        width: 100%; /* se aplica desde min-width 0 hasta 768px */
+    }        
+    @media (min-width: 768px) {
+        #galeria div{
+            width: 50%;  /* se aplica desde min-width desde 768px */
+        }
+    }        
+    #img1 {
+        height: 300px;            
+    }
+    #img2 {
+        height: 100px;            
+    }
+    #img3 {
+        height: 200px;            
+    }        
+    #img4 {
+        height: 150px;
+    }        
+    #img5 {
+        height: 350px;            
+    }        
+    #img6 {
+        height: 100px;            
+    }        
+    footer {
+        height: 20vh; /* 20% altura pantalla */
+    }
+    footer div {
+        background-color: chartreuse;
+    }
+</style>
+
+</head>
+
+<body>
+    <div class="row cabecera_2">cabecera</div>
+    <div class="row">
+        <div class="col-sm-3 navegacion_2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel pulvinar lacus, at condimentum tortor. Sed tempor tortor tortor, sed egestas leo accumsan eu. Vestibulum convallis accumsan risus, in scelerisque leo. Proin tempus vehicula nisl, a facilisis tellus viverra consectetur. Curabitur finibus accumsan luctus. Curabitur a pellentesque mauris. Sed ac nibh rutrum, porttitor sapien porttitor, auctor massa. Suspendisse mattis blandit justo, vitae semper arcu cursus nec. Proin sodales eu purus sit amet egestas. Donec in mollis lectus, sed auctor nisl. In urna urna, laoreet sit amet neque vitae, hendrerit consectetur mauris. Ut quis sagittis erat, non vehicula sapien. Cras ac erat cursus, hendrerit libero sit amet, gravida mauris. Suspendisse mattis et libero at laoreet.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel pulvinar lacus, at condimentum tortor. Sed tempor tortor tortor, sed egestas leo accumsan eu. Vestibulum convallis accumsan risus, in scelerisque leo. Proin tempus vehicula nisl, a facilisis tellus viverra consectetur. Curabitur finibus accumsan luctus. Curabitur a pellentesque mauris. Sed ac nibh rutrum, porttitor sapien porttitor, auctor massa. Suspendisse mattis blandit justo, vitae semper arcu cursus nec. Proin sodales eu purus sit amet egestas. Donec in mollis lectus, sed auctor nisl. In urna urna, laoreet sit amet neque vitae, hendrerit consectetur mauris. Ut quis sagittis erat, non vehicula sapien. Cras ac erat cursus, hendrerit libero sit amet, gravida mauris. Suspendisse mattis et libero at laoreet.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel pulvinar lacus, at condimentum tortor. Sed tempor tortor tortor, sed egestas leo accumsan eu. Vestibulum convallis accumsan risus, in scelerisque leo. Proin tempus vehicula nisl, a facilisis tellus viverra consectetur. Curabitur finibus accumsan luctus. Curabitur a pellentesque mauris. Sed ac nibh rutrum, porttitor sapien porttitor, auctor massa. Suspendisse mattis blandit justo, vitae semper arcu cursus nec. Proin sodales eu purus sit amet egestas. Donec in mollis lectus, sed auctor nisl. In urna urna, laoreet sit amet neque vitae, hendrerit consectetur mauris. Ut quis sagittis erat, non vehicula sapien. Cras ac erat cursus, hendrerit libero sit amet, gravida mauris. Suspendisse mattis et libero at laoreet.</p>
+        </div>
+        <div class="col-sm-9 contenido_2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel pulvinar lacus, at condimentum tortor. Sed tempor tortor tortor, sed egestas leo accumsan eu. Vestibulum convallis accumsan risus, in scelerisque leo. Proin tempus vehicula nisl, a facilisis tellus viverra consectetur. Curabitur finibus accumsan luctus. Curabitur a pellentesque mauris. Sed ac nibh rutrum, porttitor sapien porttitor, auctor massa. Suspendisse mattis blandit justo, vitae semper arcu cursus nec. Proin sodales eu purus sit amet egestas. Donec in mollis lectus, sed auctor nisl. In urna urna, laoreet sit amet neque vitae, hendrerit consectetur mauris. Ut quis sagittis erat, non vehicula sapien. Cras ac erat cursus, hendrerit libero sit amet, gravida mauris. Suspendisse mattis et libero at laoreet.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel pulvinar lacus, at condimentum tortor. Sed tempor tortor tortor, sed egestas leo accumsan eu. Vestibulum convallis accumsan risus, in scelerisque leo. Proin tempus vehicula nisl, a facilisis tellus viverra consectetur. Curabitur finibus accumsan luctus. Curabitur a pellentesque mauris. Sed ac nibh rutrum, porttitor sapien porttitor, auctor massa. Suspendisse mattis blandit justo, vitae semper arcu cursus nec. Proin sodales eu purus sit amet egestas. Donec in mollis lectus, sed auctor nisl. In urna urna, laoreet sit amet neque vitae, hendrerit consectetur mauris. Ut quis sagittis erat, non vehicula sapien. Cras ac erat cursus, hendrerit libero sit amet, gravida mauris. Suspendisse mattis et libero at laoreet.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel pulvinar lacus, at condimentum tortor. Sed tempor tortor tortor, sed egestas leo accumsan eu. Vestibulum convallis accumsan risus, in scelerisque leo. Proin tempus vehicula nisl, a facilisis tellus viverra consectetur. Curabitur finibus accumsan luctus. Curabitur a pellentesque mauris. Sed ac nibh rutrum, porttitor sapien porttitor, auctor massa. Suspendisse mattis blandit justo, vitae semper arcu cursus nec. Proin sodales eu purus sit amet egestas. Donec in mollis lectus, sed auctor nisl. In urna urna, laoreet sit amet neque vitae, hendrerit consectetur mauris. Ut quis sagittis erat, non vehicula sapien. Cras ac erat cursus, hendrerit libero sit amet, gravida mauris. Suspendisse mattis et libero at laoreet.</p>
+        </div>
+    </div>
+    <div class="row pie_2">footer</div>
+</body>
+</html>
