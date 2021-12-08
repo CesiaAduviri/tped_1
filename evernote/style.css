@@ -1,0 +1,56 @@
+*{
+    margin: 20px;
+    padding: 0%;
+}
+
+a {
+color: green;
+padding: 20px;
+}
+
+.contenedor1 {
+    display: flex; 
+    align-items: center; 
+    height: 200px;
+}
+
+.contenedor2 {
+    display: flex; 
+    align-items: center; 
+    height: 200px;
+}
+
+.contenedor3 {
+    display: flex; 
+    align-items: center; 
+    height: 200px;
+}
+
+nav li {
+    list-style: none;
+}
+
+h1 {
+    color:rgb(8, 119, 255);
+}
+
+.cards {
+    border-style: none;
+}
+
+p {
+    color: black;
+}
+
+div row{
+    flex-wrap: wrap;
+}
+
+#botonesCentrales {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
