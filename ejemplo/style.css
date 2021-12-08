@@ -1,0 +1,20 @@
+header, footer {
+    background-color: gray;
+}
+
+.navbar-brand img {
+    height: 30px;
+}
+/* Hemos dado prioridad a la altura, la anchura se calcula automáticamente para
+respetar la proporción. Centramos la imagen */
+.carousel-item {
+    text-align: center;
+}
+.carousel-inner img {
+    width: auto;
+    max-height: 400px;
+}
+
+main {
+    background-color: black;
+}
