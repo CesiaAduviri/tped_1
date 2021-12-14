@@ -1,0 +1,112 @@
+main > * {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 3rem;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+h1 {
+    font-size: 4vw;
+}
+
+main {
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: chartreuse;
+}
+
+nav {
+    background-color: aqua;
+    width: 100vw; /* móvil muy pequeño */
+}
+
+nav li {
+    display: inline-block; /* móvil muy pequeño */
+}
+
+section {
+    background-color: red;
+    text-align: center; /* centro imagen */
+    width: 100vw; /* móvil muy pequeño */
+}
+
+sidebar {
+    background-color: greenyellow;
+    display: none; /* móvil muy pequeño */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Lo que ponga antes lo cogerán los dispositivos más pequeños de 576px (p.ej. iPhone 5) */
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    /* no cambio nada */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    nav {
+        background-color: aqua;
+        width: 100vw; 
+    }
+
+    section {
+        background-color: red;
+        width: 100vw; 
+    }
+
+    /* no necesito cambiar el nav li a display inline porque está arriba ya hecho */
+    
+    sidebar {
+        background-color: greenyellow;
+        display: block; /* para que no sea none y se vea */
+        width: 100vw; 
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    nav {
+        background-color: aqua;
+        width: 20vw; 
+    }
+    
+    nav li {
+        display: block;
+    }
+
+    section {
+        background-color: red;
+        width: 60vw; 
+    }
+
+    /* no necesito cambiar el nav li a display inline porque está arriba ya hecho */
+    
+    sidebar {
+        background-color: greenyellow;
+        /*display: block; no me hace falta porque se ha puesto antes */
+        width: 20vw; 
+    }    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    /* no hago nada más */
+}
