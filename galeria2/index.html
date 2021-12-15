@@ -6,6 +6,17 @@
         <link rel="stylesheet" href="style.css">
         <title>Rincones de Europa</title>
         <link rel="stylesheet" href="lightbox2-2.11.3/lightbox2-2.11.3/dist/css/lightbox.min.css">
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $("button").click(function() {
+                    $("#cookies").hide();
+                });
+            });
+    
+        </script>
+
     </head>
 
 <body>
@@ -13,6 +24,12 @@
         <h1>Rincones de Europa</h1>
         <h2>- Lugares con encanto -</h2>
     </header>
+
+    <div>
+        <div id="scrollHecho" style="display: block;">
+            holi
+        </div>
+    </div>
 
 <div class="container">
     <div class="columna">
@@ -30,7 +47,12 @@
             <a href="images/lugar (9).jpg" data-lightbox="lugar (9)" data-title="Valle del Soca, Eslovenia"> <img class="grayscale" src="images/lugar (9).jpg" alt="Valle del Soca, Eslovenia"> </a>
             <a href="images/lugar (10).jpg" data-lightbox="lugar (10)" data-title="Valle Dordoña, Francia"> <img class="grayscale" src="images/lugar (10).jpg" alt="Valle Dordoña, Francia"> </a>
     </div>
-</div>    
+</div>  
+<div id="cookies">
+    texto de galletitas
+    <button>Cerrar</button>
+</div>
+
 <script src="lightbox2-2.11.3/lightbox2-2.11.3/dist/js/lightbox-plus-jquery.min.js"></script>
 </body>
 </html>
