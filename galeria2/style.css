@@ -75,7 +75,8 @@ img{
     height: 150px;
     animation-name: muestraScrollHecho;
     animation-duration: 2s;
-    }
+    animation-iteration-count: infinite;    
+}
 
     @keyframes muestraScrollHecho {
         0% {
