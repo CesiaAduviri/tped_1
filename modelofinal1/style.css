@@ -1,0 +1,39 @@
+.center{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.botonazul{
+    border-radius: 8px;
+    background-color: blue;
+    color: cornsilk;
+    padding: 0 10px;
+}
+
+.pequenia{
+    width: 64px;
+    height:auto;
+}
+
+.mediana{
+    width: 300px;
+    height: auto;
+}
+
+.botonblanco{
+    border-radius: 8px;
+    background-color:cornsilk;
+    color:black;
+    padding: 0 10px;
+}
+
+#cookies {
+    background-color: lightgreen;
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}

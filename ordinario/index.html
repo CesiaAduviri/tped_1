@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Modelo1</title>
+        <link rel="icon" href="res/icon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $("button").click(function() {
+                    $("#cookies").hide();
+                });
+            });
+    
+        </script>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+
+    <div class="container">
+
+        <div id="cookies">
+            Utilizamos cookies para mejorar tu experiencia en nuestros sitios web y con fines publicitarios. Declaración de privacidad <a href="#">Declaración de privacidad</a>
+
+            <button>Aceptar todas</button>
+
+        </div>
+
+        <header class="row">
+
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img src="./images/logo_microsoft_color.png" width="100" height="auto" class="d-inline-block align-top">
+              
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                </button>  
+                   
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="#">Microsoft 365</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Office</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Windows</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Surface</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Xbox</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Ofertas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Soporte</a></li>
+                    </ul>  
+                </div> 
+            </nav>
+        </header>
+    </div>
+    
+    <main class="container">
+        <div class="row">
+            <div class="col">
+                <div id="carrusel" class="carousel slide" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                        <li data-target="#carrusel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carrusel" data-slide-to="1"></li>
+                        <li data-target="#carrusel" data-slide-to="2"></li>
+                    </ul>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                
+                            <img src="./images/Captura1.png" alt="Captura1">
+                            <div class="carousel-caption">
+                                <p>Captura 1</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/Captura2.png" alt="Captura2">
+                            <div class="carousel-caption">
+                                <p>Captura 2</p>
+                            </div>
+                        </div>
+                     
+                    </div>
+                    <a class="carousel-control-prev" href="#carrusel" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carrusel" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+
+                <div class="cajatexto py-4">                
+                    <button class="botonamarillo">Nuevo</button>
+                    <h3><strong>Surface Pro 8</strong></h3>
+                    <p>Hay grandes cosas con una pantalla táctil más grande de 13 pulgadas,<br> conexiones más rápidas y mayor velocidad. Ya disponible con Windows 11.</p>
+                    <button class="botonnegro">Comprar ahora ></button>
+       
+                    </div>
+            </div>
+
+           
+
+             <footer class="menu2">
+
+                <nav>
+                    <ul>
+                        <li><a class="nav" href="#"><img src="./images/compra_1_4_elige_ms_365_obtener.png" alt="Microsoft">Elige tu Microsoft</li>
+                        <li><a class="nav" href="#"><img src="./images/compra_2_surface.png" alt="Surface">Compra surface</li>
+                        <li><a class="nav" href="#"><img src="./images/compra_3_xbox.png" alt="Xbox">Compra Xbox</li>
+                        <li><a class="nav" href="#"><img src="./images/compra_1_4_elige_ms_365_obtener.png" alt="Windows11">Obtener Windows 11</li>
+                        <li><a class="nav" href="#"><img src="./images/compra_5_empresas.png" alt="Empresas">Comprar para empresas</li>     
+                    </ul>                  
+                    
+                </nav>
+
+             </footer>

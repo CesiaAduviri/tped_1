@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightpink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+nav{
+    widht:70vw;
+    position: fixed;
+    top:0;
+    margin-right: 0;
+    text-align: right;
+}
+
+
+nav li{
+    display: inline-block;
+    margin: 1em;
+    font-size: 12px;
+}
+
+section{
+    height: 70vh;
+    width: 35vw;
+}
+
+#izquierda{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+h1{
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+p{
+    margin-bottom: 1em;
+    font-size: 12px;
+}
+
+.cuadrolateral{
+    position: fixed;
+    top: 45vh;
+    font-size: 2em;
+    padding: 0.3em;
+    display: inline;
+    background-color: white;
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+button{
+    background-color: blue;
+    color:white;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+}
+
+div a{
+    color: red;
+    text-decoration: none;
+    width: 30vw;
+}

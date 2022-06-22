@@ -1,0 +1,28 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cookies {
+    background-color: lightgrey;
+    }
+
+    .botonamarillo{
+        border-radius: 8px;
+        background-color: rgba(251, 255, 14, 0.974);
+        color: black;
+        padding: 0 10px;
+    }
+
+    .botonnegro{
+        border-radius: 8px;
+        background-color: black;
+        color: white;
+        padding: 0 10px;
+    }
+
+    ul{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+  
