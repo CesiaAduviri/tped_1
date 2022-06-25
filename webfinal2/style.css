@@ -69,15 +69,19 @@ header .textos-header{
     }
 
     .container-quiensoy{
-     display: flex;
      justify-content: space-evenly; 
-     margin-top: 20px;  
+     margin-top: 20vh;  
     }
 
-    .textos-quiensoy{
-        width:45% ;
-    }
+ .textos-quiensoy >h3{
 
+margin-top: 10vh;
+margin-bottom: 20vh;
+font-weight: 500;
+margin-left: 15vh;
+margin-right: 15vh;
+text-align: center;
+}
 /*GALERÍA*/
 
 .trabajos{
@@ -91,8 +95,13 @@ header .textos-header{
     flex-wrap: wrap;
  }
 
+ #galeria .images{
+    display: flex;
+    flex-wrap: nowrap;
+ }
+
  .images{
-    width: 24%;
+    width: 25%;
     margin-bottom: 10px;
     overflow:hidden;
     position:relative;
@@ -115,11 +124,44 @@ header .textos-header{
  #servicios{
         padding-top: 15vh;
         padding-bottom: 15vh;
+        text-align: center;
     }
 
+#servicios img{
+    width: 100%;
+}
+
+#servicios h4{
+    margin: 10px 0;
+    text-align: center;
+}
+
+/*FOOTER*/
+
+#redes{
+    display: flex;
+    text-decoration: none;
+    padding: 10vh;
+    text-decoration: none;
+}
 
 
+footer{
+    background: whitesmoke;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
     
+}
+
+
+#redes li {
+    list-style: none;
+    margin: 20px;
+    text-align: center;
+}
+
+
 ul.footer {
     list-style: none;
     display: flex;
@@ -131,20 +173,43 @@ ul.footer {
     padding-bottom: 10vh;
 }
 
-p{
-    text-align: center;
-    font-weight: bold;
-    color: #642a73;
-}
-
 footer.ul{
     display: flex;
     flex-wrap: wrap;
 }
 
-#redes{
-    display: flex;
-    text-decoration: none;
-    padding: 10vh;
-    width: 20%;
+p{
+    color: #642a73;
+    text-align: center;
+    font-weight: bold;
 }
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+a{
+    color:#015830;
+    text-decoration: none;
+}
+
+
+/*cookies*/
+
+#cookies {
+    background-color: #00bc84b2;
+    color: #f3f4e6;
+    height: 12vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    }
+    
+#cookies button {        
+    color: #015830;
+    background-color: #f3f4e6;
+    border-color: #007bff00;
+    border-radius: 5px;  
+    }
+

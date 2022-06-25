@@ -10,13 +10,33 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <script src="../webfinal/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./lightbox2-2.11.3/dist/css/lightbox.min.css">    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  
+  <script>
+    $(document).ready(function () {
+        $("button").click(function () {
+            $("#cookies").hide();
+        });
+    });
+    </script>
+
 </head>
 
 <body>
     <header>
+
+        <div id="cookies" class="alert text-center cookiealert" role="alert">
+            <b>¿Quieres una cookie?</b> 🍪<br>Las cookies son utilizadas para mejorar tu experiencia en la web. <a href="http://cookies.unidadeditorial.es/" target="_blank">Saber más</a>
+
+            <button type="button" class="btn btn-primary btn-sm acceptcookies">
+                Aceptar
+            </button>
+        </div>
+
         <nav class="navbar navbar-expand-md bg-white navbar-white">
             <a class="navbar-brand" href="#home"><img src="../webfinal2/images/LogoSample_ByTailorBrands-removebg-preview.png" alt="cesia" style="width: 14vh;"></a>
             <a name="home"></a>
@@ -110,7 +130,7 @@
 
         
             <div class="col-sm-4">
-                <img src="./images/revista.jpg" alt="editorial" style="max-width: 30vh;">
+                <img src="./images/revista.jpg" alt="editorial" style="max-width: 30vh">
                 <h4>Diseño Editorial</h4>
             </div>
 
@@ -129,14 +149,19 @@
                 id="social">
 
                 <ul id="redes">
-                    <li><a href="#" style="display: inline-flex;" target="_blank" class="facebook"><img
-                                src="./images/Facebook.png" alt="facebook" style="width: 25px;"></img></a></li>
-                    <li><a href="#" style="display: inline-flex;" target="_blank" class="instagram"><img
-                                src="./images/Instagram.png" alt="Instagram" style="width: 25px;"></img></a></li>
+                    
+                    <li><a href="https://www.facebook.com/" style="display: inline-flex;" target="_blank" class="facebook"><img
+                    src="./images/Facebook.png" alt="facebook" style="width: 25px;"></img></a></li>
+                   
+                    <li><a href="https://www.instagram.com/cesia_adu/" style="display: inline-flex;" target="_blank" class="instagram"><img
+                    src="./images/Instagram.png" alt="Instagram" style="width: 25px;"></img></a></li>
+                   
                     <li><a href="#" style="display: inline-flex;" target="_blank" class="twitter"><img
-                                src="./images/Twitter.png" alt="Twitter" style="width: 25px;"></img></a></li>
+                    src="./images/Twitter.png" alt="Twitter" style="width: 25px;"></img></a></li>
+                                
                     <li><a href="#" style="display: inline-flex;" target="_blank" class="linkedin"><img
-                                src="./images/Linkedin.png" alt="Linkedin" style="width: 25px;"></img></a></li>
+                    src="./images/Linkedin.png" alt="Linkedin" style="width: 25px;"></img></a></li>
+                
                 </ul>
             </div>
            
@@ -155,4 +180,6 @@
 
     </footer>
 
+    
+<script src="lightbox2-2.11.3/lightbox2-2.11.3/dist/js/lightbox-plus-jquery.min.js"></script>
     
