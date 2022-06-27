@@ -162,7 +162,7 @@ footer{
 }
 
 
-ul.footer {
+footer.ul{
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -171,12 +171,10 @@ ul.footer {
     padding-right: 20%;
     padding-top: 10vh;
     padding-bottom: 10vh;
-}
-
-footer.ul{
     display: flex;
     flex-wrap: wrap;
 }
+
 
 p{
     color: #642a73;
@@ -204,6 +202,7 @@ a{
     width: 100%;
     position: fixed;
     bottom: 0;
+    z-index: 3;
     }
     
 #cookies button {        
@@ -213,3 +212,6 @@ a{
     border-radius: 5px;  
     }
 
+h3{
+    font-size: 1.5em;
+}
