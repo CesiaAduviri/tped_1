@@ -146,8 +146,8 @@ text-align: center;
     width: 100%;
     padding: 0;
     border: rgba(249, 207, 254, 0.364) 5px solid;
-    border-top-left-radius: 40px;
-    border-bottom-right-radius: 40px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
 }
 
 
