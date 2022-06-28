@@ -4,7 +4,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    
+    max-width: 100vw;
 }
 
 body{
@@ -52,7 +52,7 @@ nav{
     text-decoration: overline ; 
 }
 
-header .textos-header{
+.textos-header{
     display:flex;
     height:430px;
     width:100%;
@@ -63,23 +63,27 @@ header .textos-header{
 
     .textos-header h1{
         font-size: 50px;
+        text-align: center;
         color:whitesmoke;
         font-weight: bolder;
         align-items: flex-start;
     }
 
     .container-quiensoy{
-     justify-content: space-evenly; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
      margin-top: 20vh;  
+    align-content: center;
+    align-items: center;
     }
 
- .textos-quiensoy >h3{
+ .textos-quiensoy h3{
 
 margin-top: 10vh;
 margin-bottom: 20vh;
 font-weight: 500;
-margin-left: 15vh;
-margin-right: 15vh;
+width: 80vw;
 text-align: center;
 }
 /*GALERÍA*/
@@ -95,11 +99,6 @@ text-align: center;
     flex-wrap: wrap;
  }
 
- #galeria .images{
-    display: flex;
-    flex-wrap: nowrap;
- }
-
  .images{
     width: 25%;
     margin-bottom: 10px;
@@ -109,27 +108,48 @@ text-align: center;
     box-shadow: 0 0 6px rgb(64, 2, 78);
  }
 
- .images >img{
+ @media screen and (max-width: 992px) {
+    .images{
+        width: 50%;
+    }
+ }
+ @media screen and (max-width: 576px) {
+    .images{
+        width: 100%;
+    }
+ }
+
+ .images img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
  }
 
+ .images img:hover{
+	filter: grayscale(90%);
+    }
+
  .row{
     background-color: #f7ae76;
     background-image: linear-gradient(0deg, #f7ae76 0%, #d9afd9 100%);
  }
 
- #servicios{
-        padding-top: 15vh;
-        padding-bottom: 15vh;
-        text-align: center;
-    }
+#servicios{
+    margin: 0;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    text-align: center;
+}
 
 #servicios img{
     width: 100%;
+    padding: 0;
+    border: rgba(249, 207, 254, 0.364) 5px solid;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
+
 
 #servicios h4{
     margin: 10px 0;
@@ -141,7 +161,7 @@ text-align: center;
 #redes{
     display: flex;
     text-decoration: none;
-    padding: 10vh;
+    padding: 0;
     text-decoration: none;
 }
 
@@ -214,4 +234,10 @@ a{
 
 h3{
     font-size: 1.5em;
+}
+
+h4{
+    font-size: 1em;
+    font-weight: bold;
+    color:#642a73;
 }
